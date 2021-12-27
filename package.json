@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tnv218/heroku-tnv218/issues"
   },
-  "homepage": "https://github.com/tnv218/heroku-tnv218#readme"
+  "homepage": "https://github.com/tnv218/heroku-tnv218#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
