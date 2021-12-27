@@ -12,6 +12,4 @@ app.get('/', function(req, res){
 });
 
 // listen on port 3000
-http.listen(80, function(){
-  console.log('listening on *:80');
-});
+http.listen(process.env.PORT || 5000);
