@@ -12,6 +12,6 @@ app.get('/', function(req, res){
 });
 
 // listen on port 3000
-http.listen(3011, function(){
-  console.log('listening on *:3011');
+http.listen(80, function(){
+  console.log('listening on *:80');
 });
